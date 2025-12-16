@@ -43,7 +43,7 @@ struct BladeMacro: PeerMacro {
                     
                     members.append(
                     """
-                    var \(raw: id.identifier.text): \(type) { get set }
+                    var \(raw: id.identifier.text): \(type) { get }
                     """
                     )
                 }
